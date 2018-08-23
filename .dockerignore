@@ -1,0 +1,8 @@
+.python-version
+__pycache__/
+result/
+seq2seq.py
+small_parallel_enja/
+train.en
+train.ja
+wmt_preprocess.py

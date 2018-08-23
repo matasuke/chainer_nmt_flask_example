@@ -1,0 +1,16 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <body>
+    <h1>predict history</h1>
+
+    <form class="" action="/" method="post">
+      <input type="text" name="title">
+      <input type="submit" name="" value="send">
+    </form>
+    {% if source and target %}
+    <p>Title: {{source}}<p>
+    <p>History: {{target}}<p>
+    {% endif %}
+  </body>
+</html>
